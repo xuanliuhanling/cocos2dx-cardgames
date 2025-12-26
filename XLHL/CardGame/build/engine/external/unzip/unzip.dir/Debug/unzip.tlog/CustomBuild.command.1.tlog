@@ -1,0 +1,10 @@
+^E:\WORK\XLHL\COCOS2D-X-3.17\EXTERNAL\UNZIP\CMAKELISTS.TXT
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -SE:/work/XLHL/CardGame -BE:/work/XLHL/CardGame/build --check-stamp-file E:/work/XLHL/CardGame/build/engine/external/unzip/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

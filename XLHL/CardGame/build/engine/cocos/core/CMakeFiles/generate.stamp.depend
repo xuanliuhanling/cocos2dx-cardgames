@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+E:/work/XLHL/cocos2d-x-3.17/cmake/Modules/CocosUseLibs.cmake
+E:/work/XLHL/cocos2d-x-3.17/cocos/2d/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/3d/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/audio/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/base/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/deprecated/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/editor-support/cocosbuilder/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/editor-support/cocostudio/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/editor-support/spine/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/math/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/navmesh/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/network/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/physics/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/physics3d/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/platform/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/renderer/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/storage/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/ui/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/cocos/vr/CMakeLists.txt
+E:/work/XLHL/cocos2d-x-3.17/extensions/CMakeLists.txt

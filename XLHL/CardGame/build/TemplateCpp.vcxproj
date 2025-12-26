@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F4C7971D-E903-31BA-AD95-B3D921B6F8FE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>TemplateCpp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\XLHL\CardGame\build\bin\TemplateCpp\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TemplateCpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TemplateCpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\XLHL\CardGame\..\cocos2d-x-3.17;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\cocos;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\deprecated;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\cocos\platform;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\extensions;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\external;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\gles\include\OGLES;E:\work\XLHL\cocos2d-x-3.17\external\glfw3\include\win32;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\zlib\include;E:\work\XLHL\CardGame\Classes;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\cocos\audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4244;4334;4005;4820;4710;4514;4056;4996;4099</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization></Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;COCOS2DXWIN32_EXPORTS;_WIN32;CC_USE_NAVMESH=1;CC_USE_JPEG=1;CC_USE_TIFF=1;CC_USE_PNG=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;COCOS2DXWIN32_EXPORTS;_WIN32;CC_USE_NAVMESH=1;CC_USE_JPEG=1;CC_USE_TIFF=1;CC_USE_PNG=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\XLHL\CardGame\..\cocos2d-x-3.17;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\cocos;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\deprecated;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\cocos\platform;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\extensions;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\external;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\gles\include\OGLES;E:\work\XLHL\cocos2d-x-3.17\external\glfw3\include\win32;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\zlib\include;E:\work\XLHL\CardGame\Classes;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\cocos\audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\XLHL\CardGame\..\cocos2d-x-3.17;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\cocos;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\deprecated;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\cocos\platform;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\extensions;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\external;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\gles\include\OGLES;E:\work\XLHL\cocos2d-x-3.17\external\glfw3\include\win32;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\zlib\include;E:\work\XLHL\CardGame\Classes;E:\work\XLHL\CardGame\..\cocos2d-x-3.17\cocos\audio\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>												</Message>
+      <Command>setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/win32-specific/gles/prebuilt/glew32.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/win32-specific/OggDecoder/prebuilt/libogg.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/win32-specific/OggDecoder/prebuilt/libvorbis.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/win32-specific/OggDecoder/prebuilt/libvorbisfile.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/win32-specific/MP3Decoder/prebuilt/libmpg123.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/win32-specific/OpenalSoft/prebuilt/OpenAL32.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/sqlite3/libraries/win32/sqlite3.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/win32-specific/zlib/prebuilt/zlib1.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/websockets/prebuilt/win32/websockets.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/curl/prebuilt/win32/libcurl.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/openssl/prebuilt/win32/libcrypto-1_1.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_if_different E:/work/XLHL/cocos2d-x-3.17/external/openssl/prebuilt/win32/libssl-1_1.dll E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\msys64\mingw64\bin\cmake.exe -E copy_directory E:/work/XLHL/CardGame/Resources E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Debug\cocos2d.lib;opengl32.lib;glu32.lib;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\gles\prebuilt\glew32.lib;E:\work\XLHL\cocos2d-x-3.17\external\glfw3\prebuilt\win32\glfw3.lib;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\OggDecoder\prebuilt\libogg.lib;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\OggDecoder\prebuilt\libvorbis.lib;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\MP3Decoder\prebuilt\libmpg123.lib;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;E:\work\XLHL\cocos2d-x-3.17\external\sqlite3\libraries\win32\sqlite3.lib;E:\work\XLHL\cocos2d-x-3.17\external\win32-specific\zlib\prebuilt\libzlib.lib;lib\Debug\unzip.lib;lib\Debug\tinyxml2.lib;E:\work\XLHL\cocos2d-x-3.17\external\freetype2\prebuilt\win32\freetype.lib;E:\work\XLHL\cocos2d-x-3.17\external\websockets\prebuilt\win32\websockets.lib;E:\work\XLHL\cocos2d-x-3.17\external\curl\prebuilt\win32\libcurl.lib;lib\Debug\flatbuffers.lib;lib\Debug\xxhash.lib;E:\work\XLHL\cocos2d-x-3.17\external\openssl\prebuilt\win32\libssl.lib;E:\work\XLHL\cocos2d-x-3.17\external\openssl\prebuilt\win32\libcrypto.lib;E:\work\XLHL\cocos2d-x-3.17\external\openssl\prebuilt\win32\libssl.lib;E:\work\XLHL\cocos2d-x-3.17\external\openssl\prebuilt\win32\libcrypto.lib;E:\work\XLHL\cocos2d-x-3.17\external\jpeg\prebuilt\win32\libjpeg.lib;E:\work\XLHL\cocos2d-x-3.17\external\webp\prebuilt\win32\libwebp.lib;E:\work\XLHL\cocos2d-x-3.17\external\tiff\prebuilt\win32\libtiff.lib;E:\work\XLHL\cocos2d-x-3.17\external\png\prebuilt\win32\libpng.lib;E:\work\XLHL\cocos2d-x-3.17\external\chipmunk\prebuilt\win32\debug-lib\libchipmunk.lib;E:\work\XLHL\cocos2d-x-3.17\external\bullet\prebuilt\win32\debug\libbullet.lib;lib\Debug\recast.lib;ws2_32.lib;winmm.lib;Version.lib;Iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>msvcrt;libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>E:/work/XLHL/CardGame/build/Debug/TemplateCpp.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>E:/work/XLHL/CardGame/build/bin/TemplateCpp/Debug/TemplateCpp.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\XLHL\CardGame\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/work/XLHL/CardGame/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\msys64\mingw64\bin\cmake.exe -SE:/work/XLHL/CardGame -BE:/work/XLHL/CardGame/build --check-stamp-file E:/work/XLHL/CardGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\msys64\mingw64\share\cmake\Modules\CMakeCInformation.cmake;E:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;E:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;E:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;E:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;E:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;E:\msys64\mingw64\share\cmake\Modules\CMakeParseArguments.cmake;E:\msys64\mingw64\share\cmake\Modules\CMakeRCInformation.cmake;E:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;E:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;E:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-C.cmake;E:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-CXX.cmake;E:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC.cmake;E:\msys64\mingw64\share\cmake\Modules\FindOpenGL.cmake;E:\msys64\mingw64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;E:\msys64\mingw64\share\cmake\Modules\FindPackageMessage.cmake;E:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCLinkerInformation.cmake;E:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\msys64\mingw64\share\cmake\Modules\Linker\MSVC-C.cmake;E:\msys64\mingw64\share\cmake\Modules\Linker\MSVC-CXX.cmake;E:\msys64\mingw64\share\cmake\Modules\Linker\MSVC.cmake;E:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC.cmake;E:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Initialize.cmake;E:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC-C.cmake;E:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC-CXX.cmake;E:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC.cmake;E:\msys64\mingw64\share\cmake\Modules\Platform\Windows.cmake;E:\msys64\mingw64\share\cmake\Modules\Platform\WindowsPaths.cmake;E:\work\XLHL\CardGame\build\CMakeFiles\4.1.0\CMakeCCompiler.cmake;E:\work\XLHL\CardGame\build\CMakeFiles\4.1.0\CMakeCXXCompiler.cmake;E:\work\XLHL\CardGame\build\CMakeFiles\4.1.0\CMakeRCCompiler.cmake;E:\work\XLHL\CardGame\build\CMakeFiles\4.1.0\CMakeSystem.cmake;E:\work\XLHL\cocos2d-x-3.17\cmake\Modules\CocosBuildHelpers.cmake;E:\work\XLHL\cocos2d-x-3.17\cmake\Modules\CocosBuildModules.cmake;E:\work\XLHL\cocos2d-x-3.17\cmake\Modules\CocosBuildSet.cmake;E:\work\XLHL\cocos2d-x-3.17\cmake\Modules\CocosCompileOptions.cmake;E:\work\XLHL\cocos2d-x-3.17\cmake\Modules\CocosPickLibs.cmake;E:\work\XLHL\cocos2d-x-3.17\cmake\Modules\CocosSelectModule.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\XLHL\CardGame\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\AppDelegate.cpp" />
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\GameScene.cpp" />
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\controllers\GameController.cpp" />
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\views\GameView.cpp" />
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\views\CardView.cpp" />
+    <ClCompile Include="E:\work\XLHL\CardGame\proj.win32\main.cpp" />
+    <ResourceCompile Include="E:\work\XLHL\CardGame\proj.win32\game.rc" />
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\CloseNormal.png" />
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\CloseSelected.png" />
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\HelloWorld.png" />
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\fonts\Marker Felt.ttf" />
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\fonts\arial.ttf" />
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\res\.gitkeep" />
+    <ClInclude Include="E:\work\XLHL\CardGame\Classes\AppDelegate.h" />
+    <ClInclude Include="E:\work\XLHL\CardGame\Classes\GameScene.h" />
+    <ClInclude Include="E:\work\XLHL\CardGame\proj.win32\main.h" />
+    <ClInclude Include="E:\work\XLHL\CardGame\proj.win32\resource.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="E:\work\XLHL\CardGame\build\ZERO_CHECK.vcxproj">
+      <Project>{C7BF8E4F-F87B-3CF5-B17F-569FA7050400}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\XLHL\CardGame\build\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{DF569181-BF3B-3EA0-93BD-AA2ED52112F3}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\XLHL\CardGame\build\engine\external\flatbuffers\flatbuffers.vcxproj">
+      <Project>{978B2512-2264-3370-9064-43D1D41585B0}</Project>
+      <Name>flatbuffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\XLHL\CardGame\build\engine\external\recast\recast.vcxproj">
+      <Project>{E90127DD-82A6-37F1-8F3B-3675E27E14F0}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\XLHL\CardGame\build\engine\external\tinyxml2\tinyxml2.vcxproj">
+      <Project>{EF72D44D-A31B-37D0-B9D6-B4D37E989431}</Project>
+      <Name>tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\XLHL\CardGame\build\engine\external\unzip\unzip.vcxproj">
+      <Project>{26B613F6-7E73-310D-9083-2C82719E2F5E}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\XLHL\CardGame\build\engine\external\xxhash\xxhash.vcxproj">
+      <Project>{9EA26210-547E-3E7F-845B-7AE16E188FB6}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

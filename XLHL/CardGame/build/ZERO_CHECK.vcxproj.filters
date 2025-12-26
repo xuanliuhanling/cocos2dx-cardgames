@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\work\XLHL\CardGame\build\CMakeFiles\e9b697b4b5035d523c39e28a11eaa833\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{86EAE6FA-832C-3F12-BFAE-CC06C39B7AE6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

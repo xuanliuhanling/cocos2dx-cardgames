@@ -1,0 +1,9 @@
+E:/work/XLHL/CardGame/build/CMakeFiles/TemplateCpp.dir
+E:/work/XLHL/CardGame/build/CMakeFiles/ALL_BUILD.dir
+E:/work/XLHL/CardGame/build/CMakeFiles/ZERO_CHECK.dir
+E:/work/XLHL/CardGame/build/engine/external/recast/CMakeFiles/recast.dir
+E:/work/XLHL/CardGame/build/engine/external/tinyxml2/CMakeFiles/tinyxml2.dir
+E:/work/XLHL/CardGame/build/engine/external/unzip/CMakeFiles/unzip.dir
+E:/work/XLHL/CardGame/build/engine/external/flatbuffers/CMakeFiles/flatbuffers.dir
+E:/work/XLHL/CardGame/build/engine/external/xxhash/CMakeFiles/xxhash.dir
+E:/work/XLHL/CardGame/build/engine/cocos/core/CMakeFiles/cocos2d.dir

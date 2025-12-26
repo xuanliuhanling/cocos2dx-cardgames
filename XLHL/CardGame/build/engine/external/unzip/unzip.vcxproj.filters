@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\XLHL\cocos2d-x-3.17\external\unzip\ioapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\XLHL\cocos2d-x-3.17\external\unzip\unzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\XLHL\cocos2d-x-3.17\external\unzip\ioapi_mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\XLHL\cocos2d-x-3.17\external\unzip\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8B75DC7F-FD4A-3B6F-8261-E100F4A8055E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

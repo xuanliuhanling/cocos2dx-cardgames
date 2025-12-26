@@ -1,0 +1,17 @@
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DebugUtils\DebugDraw.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DebugDraw.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DebugUtils\DetourDebugDraw.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourDebugDraw.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\Detour\DetourAlloc.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourAlloc.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\Detour\DetourCommon.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourCommon.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\Detour\DetourNavMesh.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourNavMesh.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\Detour\DetourNavMeshBuilder.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourNavMeshBuilder.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\Detour\DetourNavMeshQuery.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourNavMeshQuery.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\Detour\DetourNode.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourNode.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DetourCrowd\DetourCrowd.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourCrowd.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DetourCrowd\DetourLocalBoundary.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourLocalBoundary.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DetourCrowd\DetourObstacleAvoidance.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourObstacleAvoidance.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DetourCrowd\DetourPathCorridor.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourPathCorridor.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DetourCrowd\DetourPathQueue.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourPathQueue.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DetourCrowd\DetourProximityGrid.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourProximityGrid.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DetourTileCache\DetourTileCache.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourTileCache.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\DetourTileCache\DetourTileCacheBuilder.cpp;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\DetourTileCacheBuilder.obj
+E:\work\XLHL\cocos2d-x-3.17\external\recast\fastlz\fastlz.c;E:\work\XLHL\CardGame\build\engine\external\recast\recast.dir\Debug\fastlz.obj

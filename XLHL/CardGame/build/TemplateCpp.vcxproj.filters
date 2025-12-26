@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\GameScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\controllers\GameController.cpp">
+      <Filter>Source Files\Classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\views\GameView.cpp">
+      <Filter>Source Files\Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\XLHL\CardGame\Classes\views\CardView.cpp">
+      <Filter>Source Files\Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\XLHL\CardGame\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\XLHL\CardGame\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\XLHL\CardGame\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\XLHL\CardGame\Classes\GameScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\XLHL\CardGame\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\XLHL\CardGame\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\XLHL\CardGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\work\XLHL\CardGame\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{45107E0A-DB15-3E1A-99C0-958D6E8DC3D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{1378B1C7-B9B6-3F9F-8282-5B5BF5BF6B19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{4214AA93-2461-3DBC-BCE7-86A9AC7D0D6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8B75DC7F-FD4A-3B6F-8261-E100F4A8055E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{4E8513FC-20AB-3A56-A038-215FA5AFBCBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\controllers">
+      <UniqueIdentifier>{9869861F-F402-3C01-B9FD-8588D66DFD2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\views">
+      <UniqueIdentifier>{50720CA1-FFEE-3640-9153-014D8FC60A39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{A6A9E780-FCDD-3539-81AF-E56DFDDEA459}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/work/XLHL/CardGame/build/cmake_install.cmake",
+		"E:/work/XLHL/CardGame/build/engine/external/recast/cmake_install.cmake",
+		"E:/work/XLHL/CardGame/build/engine/external/tinyxml2/cmake_install.cmake",
+		"E:/work/XLHL/CardGame/build/engine/external/unzip/cmake_install.cmake",
+		"E:/work/XLHL/CardGame/build/engine/external/flatbuffers/cmake_install.cmake",
+		"E:/work/XLHL/CardGame/build/engine/external/xxhash/cmake_install.cmake",
+		"E:/work/XLHL/CardGame/build/engine/cocos/core/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
